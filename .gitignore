@@ -1,0 +1,21 @@
+.DS_Store
+# Real portfolio content and personal details
+/data/content.php
+/data/admin-config.php
+/PROGRESS_LOG.md
+# Admin credentials and login state
+/data/admin-auth.php
+/data/admin-auth-throttle.json
+/data/admin-auth-throttle.json.lock
+# Uploaded / personal images
+/assets/uploads/
+/assets/*.jpeg
+/assets/*.jpg
+/assets/*.png
+/assets/profile.*
+# Misc secrets and logs
+.env
+*.log
+error_log
+*.pem
+*.key
